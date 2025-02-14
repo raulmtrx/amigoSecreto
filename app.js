@@ -29,6 +29,7 @@ function agregar_amigo() {
 }
 
 function sortear_amigo() {
+    //Evita sortear más de una vez en una misma lista
     if (!ha_sorteado)
     {
         const amigo_seleccionado = seleccionar_de_array(amigos);
