@@ -29,19 +29,22 @@ function agregar_amigo() {
 }
 
 function sortear_amigo() {
-    const amigo_seleccionado = seleccionar_de_array(amigos);
-    const lista_de_amigos = document.getElementById("lista_amigos"); //Lista html donde se almacenan los nombres.
-    
-    //Remueve los elementos de la lista html
-    while (lista_de_amigos.firstChild) {
-        const primer_elemento = lista_de_amigos.firstChild;
+    if (!ha_sorteado)
+    {
+        const amigo_seleccionado = seleccionar_de_array(amigos);
+        const lista_de_amigos = document.getElementById("lista_amigos"); //Lista html donde se almacenan los nombres.
+        
+        //Remueve los elementos de la lista html
+        while (lista_de_amigos.firstChild) {
+            const primer_elemento = lista_de_amigos.firstChild;
 
-        lista_de_amigos.removeChild(primer_elemento);
+            lista_de_amigos.removeChild(primer_elemento);
+        }
+
+        ha_sorteado = true;
+        agregar_texto_a_lista("lista_amigos", `El amigo secreto sorteado es: ¡${amigo_seleccionado}!`, true, "rgb(0, 255, 0)");
+        cambiar_texto_de_elemento("amigo", "");
     }
-
-    ha_sorteado = true;
-    agregar_texto_a_lista("lista_amigos", `El amigo secreto sorteado es: ¡${amigo_seleccionado}!`, true, "rgb(0, 255, 0)");
-    cambiar_texto_de_elemento("amigo", "");
 }
 
 //Agrega un elemento con un texto deseado a la lista y con un color deseado o generado aleatoriamente si el parametro "color" está vacio
