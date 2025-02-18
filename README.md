@@ -5,5 +5,14 @@
 </p>
 
 Proyecto que se encarga de seleccionar aleatoriamente un elemento de una lista de amigos previamente creada por el usuario, puede ser utilizado un número infinito de veces.
-Proyecto en estado >b<terminado</b>.
 
+>h4 align=center<
+✔️ Proyecto terminado. ✔️
+</h4>
+
+<h4 align=center>
+🔨 Funcionalidades
+
+-`Funcionalidad 1`: Es un juego el cual ayuda a comprender con mayor facilidad conceptos básicos de la programación.-`Funcionalidad 2`: Es un juego bastante entretenido y puede ayudarte a pasar un buen rato.
+
+</h4>
