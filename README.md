@@ -43,7 +43,7 @@ Simplemente coloca algún nombre en el campo de texto para agregar a tu amigo, d
 
 <h4 align=center>
 📝 Autores
+</h4>
 
 raulmtrx `https://github.com/raulmtrx`
-</h4>
 
