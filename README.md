@@ -4,15 +4,15 @@
 <img src="assets/amigo-secreto.png" alt="Niño jugando con tableta" width="500" height="300">
 </p>
 
-<h2 align=center>
+<h4 align=center>
 📓 Descripción
-</h2>
+</h4>
 
 Proyecto que se encarga de seleccionar aleatoriamente un elemento de una lista de amigos previamente creada por el usuario, puede ser utilizado un número infinito de veces.
 
->h3 align=center<
+<h4 align=center>
 ✔️ Proyecto terminado. ✔️
-</h3>
+</h4>
 
 <h4 align=center>
 🔨 Funcionalidades
