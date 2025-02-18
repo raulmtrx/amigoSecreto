@@ -1,3 +1,3 @@
 <h1 align=center> Sortear lista de amigos </h1>
 
-![Niño jugando con una tableta]("assets/amigo-secreto.png")
+<img src="assets/amigo-secreto.png" alt="Niño jugando con tableta" width="500" height="300">
