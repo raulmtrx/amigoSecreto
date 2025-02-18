@@ -18,7 +18,7 @@ Proyecto que se encarga de seleccionar aleatoriamente un elemento de una lista d
 🔨 Funcionalidades
 </h4>
 
-<p>`Funcionalidad 1`: Es un juego el cual ayuda a comprender con mayor facilidad conceptos básicos de la programación.</p>p
+<p>`Funcionalidad 1`: Es un juego el cual ayuda a comprender con mayor facilidad conceptos básicos de la programación.</p>
 <p>`Funcionalidad 2`: Es un juego bastante entretenido y puede ayudarte a pasar un buen rato.</p>
 
 <h4 align=center>
