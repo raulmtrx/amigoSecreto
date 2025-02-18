@@ -1,1 +1,1 @@
-<h1 align=center> Sorteo de amigos </h1>
+<h1 align=center> Sortear lista de amigos </h1>
